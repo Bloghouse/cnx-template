@@ -16,6 +16,9 @@ export default defineConfig({
         }),
         tailwind(),
         markdoc()
-    ]
+    ],
+    security: {
+        checkOrigin: false
+    }
     // Reset Trigger: 2026-02-07 11:40
 });
